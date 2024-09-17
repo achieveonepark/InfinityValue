@@ -1,3 +1,4 @@
+#if USE_NEWTONSOFT_JSON
 using Newtonsoft.Json;
 using System;
 
@@ -23,3 +24,4 @@ namespace Achieve.InfinityValue
         public override bool CanWrite => true;
     }
 }
+#endif

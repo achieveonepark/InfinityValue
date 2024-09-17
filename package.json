@@ -2,7 +2,7 @@
   "name": "com.achieve.infinity-value",
   "displayName": "Infinity Value",
   "author": "Achieveone",
-  "version": "0.0.1-beta.1",
+  "version": "1.0.0",
   "unity": "2022.3",
   "description": "It is a structure that sets custom units commonly used in unattended RPGs so that they have infinite numbers.",
   "keywords": [
@@ -10,17 +10,15 @@
     "Table"
   ],
   "dependencies": {
-    "com.unity.test-framework": "1.0.16",
-    "com.unity.modules.jsonserialize": "1.0.0",
-    "com.unity.nuget.newtonsoft-json": "3.2.1"
+    "com.unity.test-framework": "1.0.16"
   },
-  "documentationUrl": "https://achieveonepark.github.io/cording-library/Documents/AchievePurchase/AchievePurchase/",
-  "changelogUrl": "https://github.com/achieveonepark/AchievePurchase/blob/main/CHANGELOG.md",
+  "documentationUrl": "https://achieveonepark.github.io/cording-library/Documents/InfinityValue/InfinityValue",
+  "changelogUrl": "https://github.com/achieveonepark/InfinityValue/blob/main/CHANGELOG.md",
   "repository": {
-    "url": "https://github.com/achieveonepark/AchievePurchase",
+    "url": "https://github.com/achieveonepark/InfinityValue",
     "type": "git"
   },
   "_upm": {
-    "changelog": "## Added\n- Package release\n- Adding Unity IAP basic features"
+    "changelog": "## Added\n- Package release"
   }
 }

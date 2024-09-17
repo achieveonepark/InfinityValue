@@ -1,4 +1,4 @@
-using Newtonsoft.Json;
+ï»¿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,9 @@ using System.Text.RegularExpressions;
 
 namespace Achieve.InfinityValue
 {
+#if USE_NEWTONSOFT_JSON
     [JsonConverter(typeof(InfinityValueConverter))]
+#endif
     public partial struct InfinityValue
         : IEquatable<InfinityValue>, IComparable<InfinityValue>
     {
@@ -16,7 +18,7 @@ namespace Achieve.InfinityValue
         private string _cachedToString;
 
         /// <summary>
-        /// °ªÀÌ ºñ¾îÀÖ´Â°¡?
+        /// ê°’ì´ ë¹„ì–´ìˆëŠ”ê°€?
         /// </summary>
         public bool IsEmpty => _units == null;
 
