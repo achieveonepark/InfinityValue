@@ -63,10 +63,7 @@ namespace Achieve.InfinityValue
         public static InfinityValue operator *(InfinityValue a, float b) => Multiply(a, b);
         public static InfinityValue operator *(InfinityValue a, long b) => Multiply(a, b);
         public static InfinityValue operator *(InfinityValue a, int b) => Multiply(a, b);
-        public static implicit operator InfinityValue(int value) => new InfinityValue(value);
-        public static implicit operator InfinityValue(long value) => new InfinityValue(value);
-        public static implicit operator InfinityValue(BigInteger value) => FromBigInteger(value);
-        public static implicit operator InfinityValue(string value) => new InfinityValue(value);
+
         public static explicit operator float(InfinityValue value) => (float)value.ToBigInteger();
 
         public static InfinityValue operator +(InfinityValue a, InfinityValue b)
